@@ -12,7 +12,7 @@ def get_db_connection():
 def home():
     return "Bem-vindo à API de Livros! Use as rotas /livros para ver os livros e /doar para adicionar um novo livro."
 
-# Rota para cadastrar um livro (agora a rota é /doar)
+# Usar o 127.0.0.1:5000/doar
 @app.route('/doar', methods=['POST'])
 def cadastrar_livro():
     data = request.get_json()
