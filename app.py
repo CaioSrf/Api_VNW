@@ -75,11 +75,3 @@ def listar_livros():
 
 if __name__ == '__main__':
     app.run(debug=True)
-jsonify(livros_list)
-
-if __name__ == '__main__':
-    app.run(debug=True)
-jsonify(livros_list)
-
-if __name__ == '__main__':
-    app.run(debug=True)
